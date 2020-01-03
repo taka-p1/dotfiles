@@ -16,4 +16,5 @@ nnoremap j gj
 nnoremap k gk
 syntax enable
 set hlsearch
-
+set background=dark
+colorscheme solarized
