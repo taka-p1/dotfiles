@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/Users/tmakino/go/src/gotrading/bitflyer'
+let g:netrw_dirhist_4='/Users/tmakino/go/src/gotrading'
+let g:netrw_dirhist_3='/Users/tmakino/python_bitcoin/myenv'
+let g:netrw_dirhist_2='/Users/tmakino/python_bitcoin'
+let g:netrw_dirhist_1='/Users/tmakino/coursera_ml/machine-learning-ex5/ex5'

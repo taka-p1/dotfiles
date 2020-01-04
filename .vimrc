@@ -1,4 +1,3 @@
-colorscheme default
 set fenc=utf-8
 set nobackup
 set noswapfile
@@ -18,3 +17,4 @@ syntax enable
 set hlsearch
 set background=dark
 colorscheme solarized
+set clipboard+=unnamed
