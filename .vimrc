@@ -19,6 +19,6 @@ set background=dark
 colorscheme solarized
 set clipboard+=unnamed
 
-call plug#begin()
-Plug 'faith/vim-go' { 'do': 'GoInstallBinaries' }
+call plug#begin('~/.vim/plugged')
+Plug 'fatih/vim-go'
 call plug#end()
