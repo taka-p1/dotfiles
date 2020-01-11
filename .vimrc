@@ -6,7 +6,6 @@ set hidden
 set showcmd
 
 set number
-set virtualedit=onemore
 set smartindent
 set visualbell
 set laststatus=2
