@@ -17,6 +17,8 @@ set hlsearch
 set background=dark
 colorscheme solarized
 set clipboard+=unnamed
+set list
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 
 call plug#begin('~/.vim/plugged')
 Plug 'fatih/vim-go'
