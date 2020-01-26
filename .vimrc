@@ -14,6 +14,7 @@ nnoremap j gj
 nnoremap k gk
 syntax enable
 set hlsearch
+set incsearch
 set background=dark
 colorscheme solarized
 set clipboard+=unnamed
@@ -22,4 +23,6 @@ set listchars=tab:>-
 
 call plug#begin('~/.vim/plugged')
 Plug 'fatih/vim-go'
+Plug 'cohama/lexima.vim'
+Plug 'davidhalter/jedi-vim'
 call plug#end()
