@@ -45,3 +45,6 @@ Plug 'cohama/lexima.vim'
 Plug 'davidhalter/jedi-vim'
 Plug 'pangloss/vim-javascript'
 call plug#end()
+
+let g:jedi#popup_on_dot=0
+let g:jedi#popup_select_first=1
