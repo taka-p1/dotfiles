@@ -16,7 +16,6 @@ syntax enable
 set hlsearch
 set incsearch
 set background=dark
-colorscheme solarized
 set clipboard+=unnamed
 set list
 set listchars=tab:>-
@@ -39,12 +38,16 @@ if has("autocmd")
   autocmd FileType javascript  setlocal sw=4 sts=4 ts=4 et
 endif
 
+let g:jedi#popup_on_dot=0
+let g:jedi#popup_select_first=1
+let lexima_ctrlh_as_backspace=1
+
 call plug#begin('~/.vim/plugged')
 Plug 'fatih/vim-go'
 Plug 'cohama/lexima.vim'
 Plug 'davidhalter/jedi-vim'
 Plug 'pangloss/vim-javascript'
+Plug 'lifepillar/vim-solarized8'
 call plug#end()
 
-let g:jedi#popup_on_dot=0
-let g:jedi#popup_select_first=1
+colorscheme solarized8
