@@ -47,7 +47,7 @@ Plug 'fatih/vim-go'
 Plug 'cohama/lexima.vim'
 Plug 'davidhalter/jedi-vim'
 Plug 'pangloss/vim-javascript'
-Plug 'lifepillar/vim-solarized8'
+"Plug 'lifepillar/vim-solarized8'
 call plug#end()
 
-colorscheme solarized8
+colorscheme solarized
