@@ -19,6 +19,7 @@ set background=dark
 set clipboard+=unnamed
 set list
 set listchars=tab:>-
+set ttimeoutlen=10
 
 if has("autocmd")
   filetype plugin on
