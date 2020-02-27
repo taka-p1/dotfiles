@@ -20,6 +20,7 @@ set clipboard+=unnamed
 set list
 set listchars=tab:>-
 set ttimeoutlen=10
+set splitright
 
 if has("autocmd")
   filetype plugin on
