@@ -48,6 +48,7 @@ Plug 'fatih/vim-go'
 Plug 'cohama/lexima.vim'
 Plug 'davidhalter/jedi-vim'
 Plug 'pangloss/vim-javascript'
+Plug 'thinca/vim-quickrun'
 "Plug 'lifepillar/vim-solarized8'
 call plug#end()
 
